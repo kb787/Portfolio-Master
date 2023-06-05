@@ -1,0 +1,256 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.homepageImages 
+{
+   list-style-type:none ;
+   display:flex ;
+   gap:2vw ;
+}
+
+.homepageHeading 
+{
+   font-size:3vw ;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-style: oblique ;
+}
+
+.Homepage 
+{
+   background-color: black;
+   color:yellow ;
+   margin-top:-2.5vw ;
+   height:55vw ;
+
+}
+
+.listImage 
+{
+   border:solid ;
+   border-color: red ;
+}
+
+.listImage:hover 
+{
+   transform:scale(1.5) ;
+   transform:scale(1.5) ;
+}
+
+.homepagePara 
+{
+   font-size: 2vw ;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-style: oblique;
+   text-align: center;
+}
+
+.homepageList 
+{
+   list-style-type:decimal ;
+   text-align: left;
+   font-size:2vw ;
+   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+   font-style: oblique;
+}
+
+.linking 
+{
+   text-decoration: none;
+   color: yellow;
+}
+
+.Register 
+{
+   background-color: black;
+   color:yellow ;
+   margin-right:25vw ;
+   margin-left:25vw ;
+   height:20vw ;
+}
+
+.registerHeading 
+{
+    font-size:2vw ;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.registerFormInput 
+{
+   font-size:1.5vw ;
+   width:15vw ;
+}
+
+.registerButton 
+{
+   background-color: red; 
+   color:white ;
+   font-size: 1.5vw;
+   width:12vw ;
+   border-radius:0.65rem ;
+   border: solid;
+   border-color: red;
+}
+
+.registerButton:hover 
+{
+    transform:scale(1.5) ;
+    transform:scale(1.5) ;
+} 
+
+.Profile 
+{
+    background-color:maroon;
+    color:white ;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: oblique;
+    margin-left:25vw ;
+    margin-right:25vw ;
+}
+
+.registerFormInput 
+{
+    font-size:1.5vw ;
+    width:25vw ;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.profileFormInput 
+{
+    font-size:1.5vw ;
+    width:35vw ;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.profileHeading 
+{
+   font-size: 3vw ;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-style: oblique; 
+}
+
+.profSubmitButton 
+{
+   border-radius:0.60rem ;
+   background-color: green;
+   color:white ; 
+   font-size:1.25vw ;
+   width:10vw ;
+   border: solid;
+   border-color: green;
+   margin-bottom:1vw ;
+}
+
+.profSubmitButton:hover 
+{
+    transform:scale(1.5) ;
+    transform:scale(1.5) ;
+} 
+
+.sidebarDashboard 
+{
+   background-color: green;
+   color:yellow ;
+   align-content: left;
+   margin-top:-2vw ;
+   width:25vw;
+   height:80vw ;
+}
+
+.sidebarList 
+{
+   list-style-type: none;
+   font-size: 2vw;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   text-align: left;
+}
+
+.dashboardPara 
+{
+    margin-top:-80vw ;
+    font-size:3vw ;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    font-style: oblique;
+    margin-left:15vw ;
+}
+
+.dashboardSubPara 
+{
+   font-size:3vw ;
+   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+   font-style: oblique;
+   margin-left:2vw ;
+   text-align:left ;
+   margin-left:26vw ;
+}
+
+.Dashboard 
+{
+    background-color: black;
+    color:yellow ;
+    height:80vw ;
+}
+
+.sidebarListItems 
+{ 
+   margin-left:1vw ;
+}
+
+.linking 
+{
+   margin-left:1vw ;
+   text-decoration: none;
+   color:yellow ;
+}
+
+.container 
+{
+   background-color: black; 
+   color:yellow ;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-style: oblique;
+   margin-top:-2vw ;
+   height:80vw ;
+}
+
+
+
+
+
+
