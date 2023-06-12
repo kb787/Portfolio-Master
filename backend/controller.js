@@ -53,11 +53,7 @@ const loginController = async(req,res) =>
         }
         else 
         {
-            var token = jwt.sign({id:prevUserName.__id}, process.env.jwtSecret, {
-                expiresIn:"1d" 
-                }) ;
-
-            return res.status(200).send({message:"Login success", success:true , token}) ;    
+            return res.status(200).send({message:"Login success", success:true}) ;    
         }
 
     }
@@ -153,7 +149,7 @@ const projectPostController = async(req,res) => {
         return res.status(500).send({message:"Unable to perform post request",success:false}) ;
     }
 } 
-//Pending
+
 const projectDeleteController = async(req,res) => 
 {
      try {
@@ -197,7 +193,6 @@ const projectGetController = async(req,res) =>
         return res.status(500).send({message:"Unable to perform get request",success:false}) ;
     }
 }
-//Pending
 const projectPutController = async(req,res) => 
 {
     try 
